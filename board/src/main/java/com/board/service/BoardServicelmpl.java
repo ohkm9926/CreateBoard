@@ -27,4 +27,11 @@ public void write(BoardVO vo) throws Exception {
 	dao.write(vo);
 }
 
+//게시물 조회
+@Override
+public BoardVO view(int bno) throws Exception {
+
+return dao.view(bno);
+}
+
 }
